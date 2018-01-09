@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1500367844164" stop="1500368967782" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1500368017973" stop="1500368146589" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368146628" stop="1500368162254" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368162259" stop="1500368243397" status="failed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <failure>
+                <message>AssertionError: feed3 ad not present</message>
+                <stack-trace>java.lang.AssertionError: feed3 ad not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_feed3_ad(AppiumFunctions.java:414)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed3(FeedAdVAlidationonUI.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368243399" stop="1500368404172" status="passed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368404176" stop="1500368609973" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368609975" stop="1500368690370" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368690372" stop="1500368763475" status="failed">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <failure>
+                <message>AssertionError: Maps submodule ad is not  present</message>
+                <stack-trace>java.lang.AssertionError: Maps submodule ad is not  present
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_submodules_Maps_ad(AppiumFunctions.java:554)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_Maps_submodule(AppFunctions.java:678)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Maps_Radar_page_Ad(FeedAdVAlidationonUI.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368763477" stop="1500368823722" status="broken">
+            <name>Health_Allergy_page_Ad</name>
+            <title>Validating Extended Health Module Allergy page Ad</title>
+            <failure>
+                <message>TimeoutException: Timed out after 60 seconds waiting for presence of element located by: By.className: android.widget.ImageButton
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vpathania-mpro.corp.weather.com', ip: '10.200.34.44', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=b07f9763, platform=LINUX, desired={app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6}, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 61be874a-e3bd-4d0d-abe2-40547e2336d3</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for presence of element located by: By.className: android.widget.ImageButton
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vpathania-mpro.corp.weather.com', ip: '10.200.34.44', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=b07f9763, platform=LINUX, desired={app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6}, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 61be874a-e3bd-4d0d-abe2-40547e2336d3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at twc.Automation.HandleWithApp.AppFunctions.Change_to_Test_Mode(AppFunctions.java:1128)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Health_Allergy_page_Ad(FeedAdVAlidationonUI.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.23 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vpathania-mpro.corp.weather.com', ip: '10.200.34.44', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=b07f9763, platform=LINUX, desired={app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6}, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 61be874a-e3bd-4d0d-abe2-40547e2336d3
+*** Element info: {Using=class name, value=android.widget.ImageButton}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:110)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 26 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500368823723" stop="1500368945771" status="broken">
+            <name>HealthCold_Flu_page_Ad</name>
+            <title>Validating Extended Health Module Allergy page Ad</title>
+            <failure>
+                <message>NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vpathania-mpro.corp.weather.com', ip: '10.200.34.44', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=b07f9763, platform=LINUX, desired={app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6}, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 61be874a-e3bd-4d0d-abe2-40547e2336d3
+*** Element info: {Using=id, value=com.weather.Weather:id/cold_and_flu_label}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'vpathania-mpro.corp.weather.com', ip: '10.200.34.44', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=b07f9763, platform=LINUX, desired={app=/Users/vishal.pathania/Documents/ANDROID_ARMS/APKFile/TWC_800002197_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6}, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 61be874a-e3bd-4d0d-abe2-40547e2336d3
+*** Element info: {Using=id, value=com.weather.Weather:id/cold_and_flu_label}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at twc.Automation.HandleWithApp.AppFunctions.clickOnModule(AppFunctions.java:227)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.HealthCold_Flu_page_Ad(FeedAdVAlidationonUI.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="64137@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1515054215288" stop="1515055046470" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1515054586140" stop="1515054622253" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ravis-MacBook-Pro.local"/>
+                <label name="thread" value="2747@ravis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515054622525" stop="1515054645318" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ravis-MacBook-Pro.local"/>
+                <label name="thread" value="2747@ravis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515054645339" stop="1515054663726" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ravis-MacBook-Pro.local"/>
+                <label name="thread" value="2747@ravis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515054663752" stop="1515054675790" status="passed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ravis-MacBook-Pro.local"/>
+                <label name="thread" value="2747@ravis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515054675809" stop="1515055027442" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ravis-MacBook-Pro.local"/>
+                <label name="thread" value="2747@ravis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515055027864" stop="1515055046403" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="ravis-MacBook-Pro.local"/>
+                <label name="thread" value="2747@ravis-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

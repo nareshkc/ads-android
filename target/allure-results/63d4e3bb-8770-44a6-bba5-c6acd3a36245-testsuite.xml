@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1499348341791" stop="1499348682903" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1499348552783" stop="1499348671976" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="2397@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

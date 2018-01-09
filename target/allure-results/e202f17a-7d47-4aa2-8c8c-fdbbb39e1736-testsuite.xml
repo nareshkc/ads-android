@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1498657055693" stop="1498658150519" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1498657257733" stop="1498657429494" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="17804@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1498657429538" stop="1498657502904" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="17804@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1498657502908" stop="1498657583611" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="17804@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1498657583614" stop="1498657806725" status="passed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="17804@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1498657806728" stop="1498658150517" status="broken">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="17804@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1498657055693" stop="1498658150518" status="broken">
+            <name>Default suite : Default test</name>
+            <title>Default suite : Default test</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1497971419109" stop="1497973496344" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1497971619350" stop="1497971974811" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497971974861" stop="1497972039428" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497972039432" stop="1497972176892" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497972176897" stop="1497972357545" status="passed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497972357549" stop="1497972783768" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497972783770" stop="1497972832342" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497972832344" stop="1497973040891" status="passed">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497973040893" stop="1497973440732" status="passed">
+            <name>Health_Allergy_page_Ad</name>
+            <title>Validating Extended Health Module Allergy page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497973440734" stop="1497973494714" status="passed">
+            <name>HealthCold_Flu_page_Ad</name>
+            <title>Validating Extended Health Module Allergy page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="5334@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

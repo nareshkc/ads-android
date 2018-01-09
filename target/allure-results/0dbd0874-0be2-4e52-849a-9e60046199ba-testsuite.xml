@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1515149403804" stop="1515149617189" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1515149587893" stop="1515149617086" status="broken">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.ScreenShot(AppiumFunctions.java:626)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_feed1_ad(AppiumFunctions.java:340)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed1(FeedAdVAlidationonUI.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 30 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 31 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 44 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149587893" stop="1515149617086" status="broken">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.ScreenShot(AppiumFunctions.java:626)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_feed1_ad(AppiumFunctions.java:340)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed1(FeedAdVAlidationonUI.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 30 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 31 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 44 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617091" stop="1515149617094" status="broken">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed2(FeedAdVAlidationonUI.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617091" stop="1515149617094" status="broken">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed2(FeedAdVAlidationonUI.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617099" stop="1515149617102" status="broken">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed3(FeedAdVAlidationonUI.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617099" stop="1515149617102" status="broken">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed3(FeedAdVAlidationonUI.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617107" stop="1515149617110" status="broken">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed4(FeedAdVAlidationonUI.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617107" stop="1515149617110" status="broken">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed4(FeedAdVAlidationonUI.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617114" stop="1515149617118" status="broken">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AppiumDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AppiumDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
+	at io.appium.java_client.AppiumDriver.closeApp(AppiumDriver.java:245)
+	at twc.Automation.HandleWithApp.AppFunctions.Kill_Launch_App(AppFunctions.java:791)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_hourly_page_Ad(FeedAdVAlidationonUI.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AppiumDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 29 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 43 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617114" stop="1515149617118" status="broken">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AppiumDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AppiumDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:189)
+	at io.appium.java_client.AppiumDriver.closeApp(AppiumDriver.java:245)
+	at twc.Automation.HandleWithApp.AppFunctions.Kill_Launch_App(AppFunctions.java:791)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_hourly_page_Ad(FeedAdVAlidationonUI.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AppiumDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 29 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 43 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617122" stop="1515149617125" status="broken">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_Daily_submodule(AppFunctions.java:646)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Daily_page_Ad(FeedAdVAlidationonUI.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617122" stop="1515149617125" status="broken">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_Daily_submodule(AppFunctions.java:646)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Daily_page_Ad(FeedAdVAlidationonUI.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617129" stop="1515149617132" status="broken">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_Maps_submodule(AppFunctions.java:672)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Maps_Radar_page_Ad(FeedAdVAlidationonUI.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515149617129" stop="1515149617132" status="broken">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <failure>
+                <message>UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733</message>
+                <stack-trace>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.weather.Weather, deviceName=32081351765c5105, fullReset=true, platform=LINUX, deviceUDID=32081351765c5105, desired={app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, appPackage=com.weather.Weather, appium-version=1.4.13, newCommandTimeout=100000, autoLaunch=true, platformVersion=6.0.1, platformName=Android, deviceName=Samsung S6, fullReset=true}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceManufacturer=samsung, app=/Users/macmini/eclipse-workspace/ANDROID_ARMS/APKFile/TWC_806000961_googleRelease.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitPackage=com.weather.Weather, appWaitActivity=com.weather.Weather.app.SplashScreenActivity, databaseEnabled=false, appActivity=com.weather.Weather.app.SplashScreenActivity, autoLaunch=true, locationContextEnabled=false, deviceModel=SM-G900H}]
+Session ID: 7015fccf-e3d9-4dd6-b4d2-ec01ec19e733
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:914)
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:819)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_Maps_submodule(AppFunctions.java:672)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Maps_Radar_page_Ad(FeedAdVAlidationonUI.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Macminis-Mac-mini.local', ip: '192.168.1.24', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 31 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 32 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 45 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1222@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

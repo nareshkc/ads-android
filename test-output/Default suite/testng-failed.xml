@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI">
+        <methods>
+          <include name="Validating_feed3"/>
+          <include name="Extended_Daily_page_Ad"/>
+          <include name="Extended_Maps_Radar_page_Ad"/>
+          <include name="Validating_feed2"/>
+          <include name="Extended_hourly_page_Ad"/>
+          <include name="Validating_feed4"/>
+          <include name="Validating_feed1"/>
+          <include name="Before_Test"/>
+        </methods>
+      </class> <!-- ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

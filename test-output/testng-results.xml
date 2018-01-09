@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="477726" started-at="2018-01-09T08:13:41Z" finished-at="2018-01-09T08:21:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="477726" started-at="2018-01-09T08:13:41Z" finished-at="2018-01-09T08:21:38Z">
+      <class name="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Before_Test" is-config="true" duration-ms="148794" started-at="2018-01-09T13:43:41Z" finished-at="2018-01-09T13:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test -->
+        <test-method status="PASS" signature="Validating_feed1()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Validating_feed1" duration-ms="33597" started-at="2018-01-09T13:46:09Z" finished-at="2018-01-09T13:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed1 -->
+        <test-method status="PASS" signature="Validating_feed2()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Validating_feed2" duration-ms="22879" started-at="2018-01-09T13:46:43Z" finished-at="2018-01-09T13:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed2 -->
+        <test-method status="PASS" signature="Validating_feed3()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Validating_feed3" duration-ms="18354" started-at="2018-01-09T13:47:06Z" finished-at="2018-01-09T13:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed3 -->
+        <test-method status="PASS" signature="Validating_feed4()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Validating_feed4" duration-ms="12229" started-at="2018-01-09T13:47:24Z" finished-at="2018-01-09T13:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed4 -->
+        <test-method status="PASS" signature="Extended_hourly_page_Ad()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Extended_hourly_page_Ad" duration-ms="168949" started-at="2018-01-09T13:47:37Z" finished-at="2018-01-09T13:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_hourly_page_Ad -->
+        <test-method status="PASS" signature="Extended_Daily_page_Ad()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Extended_Daily_page_Ad" duration-ms="19739" started-at="2018-01-09T13:50:26Z" finished-at="2018-01-09T13:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Daily_page_Ad -->
+        <test-method status="PASS" signature="Extended_Maps_Radar_page_Ad()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="Extended_Maps_Radar_page_Ad" duration-ms="26245" started-at="2018-01-09T13:50:45Z" finished-at="2018-01-09T13:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Maps_Radar_page_Ad -->
+        <test-method status="PASS" signature="End_Test()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@23b8d9f3]" name="End_Test" is-config="true" duration-ms="26761" started-at="2018-01-09T13:51:12Z" finished-at="2018-01-09T13:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End_Test -->
+      </class> <!-- ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

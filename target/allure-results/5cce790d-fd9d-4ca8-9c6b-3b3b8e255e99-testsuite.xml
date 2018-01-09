@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1515156597370" stop="1515157200144" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1515156741568" stop="1515156778532" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156741568" stop="1515156778532" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156778635" stop="1515156801156" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156778635" stop="1515156801156" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156801162" stop="1515156819767" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156801162" stop="1515156819767" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156819772" stop="1515156831754" status="passed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156819772" stop="1515156831754" status="passed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156831758" stop="1515157063680" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515156831758" stop="1515157063680" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515157063917" stop="1515157083808" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515157063917" stop="1515157083808" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515157083814" stop="1515157170226" status="passed">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1515157083814" stop="1515157170226" status="passed">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2445@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

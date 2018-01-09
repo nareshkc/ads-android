@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1497968976692" stop="1497970473035" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1497969180427" stop="1497969298229" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="4787@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497969298264" stop="1497969313509" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="4787@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497969313513" stop="1497969336792" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="4787@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497969336795" stop="1497969486514" status="passed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="4787@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497969486516" stop="1497969917363" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="4787@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497969917367" stop="1497970349256" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="4787@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497970349258" stop="1497970473034" status="broken">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="host" value="vpathania-mpro.corp.weather.com"/>
+                <label name="thread" value="4787@vpathania-mpro.corp.weather.com.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497968976692" stop="1497970473035" status="broken">
+            <name>Default suite : Default test</name>
+            <title>Default suite : Default test</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

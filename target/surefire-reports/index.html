@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 9 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Extended_Daily_page_Ad">Extended_Daily_page_Ad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Extended_Maps_Radar_page_Ad">Extended_Maps_Radar_page_Ad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Extended_hourly_page_Ad">Extended_hourly_page_Ad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="HealthCold_Flu_page_Ad">HealthCold_Flu_page_Ad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Health_Allergy_page_Ad">Health_Allergy_page_Ad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Validating_feed1">Validating_feed1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Validating_feed2">Validating_feed2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Validating_feed3">Validating_feed3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI" hash-for-method="Validating_feed4">Validating_feed4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Extended_Daily_page_Ad">
+                  </a> <!-- Extended_Daily_page_Ad -->
+                  <span class="method-name">Extended_Daily_page_Ad</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:810)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_Daily_submodule(AppFunctions.java:645)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Daily_page_Ad(FeedAdVAlidationonUI.java:98)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Extended_Maps_Radar_page_Ad">
+                  </a> <!-- Extended_Maps_Radar_page_Ad -->
+                  <span class="method-name">Extended_Maps_Radar_page_Ad</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:810)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_Maps_submodule(AppFunctions.java:671)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Maps_Radar_page_Ad(FeedAdVAlidationonUI.java:107)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Extended_hourly_page_Ad">
+                  </a> <!-- Extended_hourly_page_Ad -->
+                  <span class="method-name">Extended_hourly_page_Ad</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:810)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter_hourly_submodules(AppFunctions.java:617)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_hourly_page_Ad(FeedAdVAlidationonUI.java:88)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HealthCold_Flu_page_Ad">
+                  </a> <!-- HealthCold_Flu_page_Ad -->
+                  <span class="method-name">HealthCold_Flu_page_Ad</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:810)
+	at twc.Automation.HandleWithApp.AppFunctions.clickOnModule(AppFunctions.java:226)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.HealthCold_Flu_page_Ad(FeedAdVAlidationonUI.java:136)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Health_Allergy_page_Ad">
+                  </a> <!-- Health_Allergy_page_Ad -->
+                  <span class="method-name">Health_Allergy_page_Ad</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:213)
+	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:102)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:71)
+	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
+	at twc.Automation.HandleWithApp.AppFunctions.Change_to_Test_Mode(AppFunctions.java:1126)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Health_Allergy_page_Ad(FeedAdVAlidationonUI.java:118)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validating_feed1">
+                  </a> <!-- Validating_feed1 -->
+                  <span class="method-name">Validating_feed1</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithAppium.AppiumFunctions.selectlocation(AppiumFunctions.java:544)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed1(FeedAdVAlidationonUI.java:36)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validating_feed2">
+                  </a> <!-- Validating_feed2 -->
+                  <span class="method-name">Validating_feed2</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:810)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed2(FeedAdVAlidationonUI.java:51)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validating_feed3">
+                  </a> <!-- Validating_feed3 -->
+                  <span class="method-name">Validating_feed3</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithApp.AppFunctions.Swipe(AppFunctions.java:810)
+	at twc.Automation.HandleWithApp.AppFunctions.SwipeUp_Counter(AppFunctions.java:605)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed3(FeedAdVAlidationonUI.java:64)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validating_feed4">
+                  </a> <!-- Validating_feed4 -->
+                  <span class="method-name">Validating_feed4</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at twc.Automation.HandleWithAppium.AppiumFunctions.screenShot_fail(AppiumFunctions.java:571)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_feed4_ad(AppiumFunctions.java:419)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed4(FeedAdVAlidationonUI.java:77)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/vishal.pathania/Documents/ANDROID_ARMS/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Validating_feed1')
+data.setCell(0, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(0, 3, 15541);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Health_Allergy_page_Ad')
+data.setCell(1, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(1, 3, 28);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Validating_feed2')
+data.setCell(2, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(2, 3, 22);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HealthCold_Flu_page_Ad')
+data.setCell(3, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(3, 3, 19);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Validating_feed4')
+data.setCell(4, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(4, 3, 11);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Extended_Maps_Radar_page_Ad')
+data.setCell(5, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Extended_hourly_page_Ad')
+data.setCell(6, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Validating_feed3')
+data.setCell(7, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Extended_Daily_page_Ad')
+data.setCell(8, 2, 'ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI')
+data.setCell(8, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Before_Test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validating_feed1</span>
+                <span class="method-start">63075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validating_feed2</span>
+                <span class="method-start">78641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validating_feed3</span>
+                <span class="method-start">78665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Validating_feed4</span>
+                <span class="method-start">78667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Extended_hourly_page_Ad</span>
+                <span class="method-start">78679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Extended_Daily_page_Ad</span>
+                <span class="method-start">78681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Extended_Maps_Radar_page_Ad</span>
+                <span class="method-start">78683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Health_Allergy_page_Ad</span>
+                <span class="method-start">78685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HealthCold_Flu_page_Ad</span>
+                <span class="method-start">78715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">End_Test</span>
+                <span class="method-start">78737 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
